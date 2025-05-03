@@ -25,7 +25,7 @@ app.use('/api', limiter);
 //Rutas
 app.use('/api', librosRoutes);
 
-//Manejador de rutas para manejar ri¿utas no definidas
+//Manejador de rutas para manejar rutas no definidas
 app.get('/', (req, res) => {
   res.send('Bienvenido a la API :D');
 });
